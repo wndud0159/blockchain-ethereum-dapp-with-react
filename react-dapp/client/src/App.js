@@ -54,11 +54,11 @@ class App extends Component {
     }
     return (
       <div className="App">
-        <h1>Good to Go!</h1>
-        <p>Your Truffle Box is installed and ready.</p>
+        <h1 className=" border-4 border-red-500">Good to Go!</h1>
+        <p>Your Truffle Boxdd is installed and ready.</p>
         <h2>Smart Contract Example</h2>
         <p>
-          If your contracts compiled and migrated successfully, below will show
+          If your contrafcts compiled and migrated successfully, below will show
           a stored value of 5 (by default).
         </p>
         <p>
